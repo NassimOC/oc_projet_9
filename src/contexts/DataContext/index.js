@@ -31,7 +31,7 @@ export const DataProvider = ({ children }) => {
     getData();
   });
   
-  const last = data 
+  const last = data && data.events
   ? data.events.reduce(
     (latest, event) => event.date > latest.date ? event : latest
   ) : null
