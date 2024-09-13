@@ -32,6 +32,9 @@ const EventList = () => {
   };
   const pageNumber = Math.floor((filteredEvents?.length || 0) / PER_PAGE) + 1;
   const typeList = new Set(data?.events.map((event) => event.type));
+  const byDateDesc = filteredEvents?.sort((evtA, evtB) =>
+    new Date(evtA.date) > new Date(evtB.date) ? -1 : 1
+  );
   return (
     <>
       {error && <div>An error occured</div>}
@@ -45,7 +48,7 @@ const EventList = () => {
             onChange={(value) => (value ? changeType(value) : changeType(null))}
           />
           <div id="events" className="ListContainer">
-            {filteredEvents.map((event) => (
+            {byDateDesc.map((event) => (
               <Modal key={event.id} Content={<ModalEvent event={event} />}>
                 {({ setIsOpened }) => (
                   <EventCard
