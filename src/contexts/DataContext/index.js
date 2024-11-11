@@ -11,7 +11,10 @@ const DataContext = createContext({});
 
 export const api = {
   loadData: async () => {
-    const json = await fetch("/events.json");
+    const basePath = window.location.pathname.startsWith("/oc_projet_9")
+    ? `/${window.location.pathname.split("/")[1]}`
+    : "";
+  const json = await fetch(`${basePath}/events.json`);
     return json.json();
   },
 };
