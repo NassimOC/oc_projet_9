@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oc_projet_9/static/css/main.ee2a8b22.css",
-    "main.js": "/oc_projet_9/static/js/main.bd840e10.js",
-    "static/js/787.bd863a58.chunk.js": "/oc_projet_9/static/js/787.bd863a58.chunk.js",
-    "index.html": "/oc_projet_9/index.html",
-    "main.ee2a8b22.css.map": "/oc_projet_9/static/css/main.ee2a8b22.css.map",
-    "main.bd840e10.js.map": "/oc_projet_9/static/js/main.bd840e10.js.map",
-    "787.bd863a58.chunk.js.map": "/oc_projet_9/static/js/787.bd863a58.chunk.js.map"
+    "main.css": "/NassimOC/oc_projet_9/static/css/main.ee2a8b22.css",
+    "main.js": "/NassimOC/oc_projet_9/static/js/main.246b26b7.js",
+    "static/js/787.bd863a58.chunk.js": "/NassimOC/oc_projet_9/static/js/787.bd863a58.chunk.js",
+    "index.html": "/NassimOC/oc_projet_9/index.html",
+    "main.ee2a8b22.css.map": "/NassimOC/oc_projet_9/static/css/main.ee2a8b22.css.map",
+    "main.246b26b7.js.map": "/NassimOC/oc_projet_9/static/js/main.246b26b7.js.map",
+    "787.bd863a58.chunk.js.map": "/NassimOC/oc_projet_9/static/js/787.bd863a58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee2a8b22.css",
-    "static/js/main.bd840e10.js"
+    "static/js/main.246b26b7.js"
   ]
 }
